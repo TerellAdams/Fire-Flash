@@ -1,0 +1,250 @@
+h1 {font-family: 'Caveat', cursive;
+  font-size: 50px;
+}
+h2 {font-family: 'caveat' , cursive; font-size: 50px;}
+body {
+  background: red;
+  color: black;
+  text-align: center;
+  font-size: 66px;
+  text-shadow: 4px 4px 4px white; 
+}
+
+h3{
+  display:flex;
+  justify-content:space-around;
+}
+
+h3:hover{
+color: white; 
+text-shadow: 4px 4px 4px black; 
+}
+
+h2:hover{
+color: white; 
+text-shadow: 4px 4px 4px black; 
+}
+
+h1:hover{
+color: white; 
+text-shadow: 4px 4px 4px black; 
+}
+
+p:hover{
+color: white; 
+text-shadow: 4px 4px 4px black; 
+}
+
+.gif:hover{
+border: solid 15px white; 
+box-shadow: 4px 4px 4px black; 
+}
+
+.gif{
+    justify-content: center;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    height: 300px;
+    width:  300px;
+    border: 6px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  align-items:center;
+}
+
+.lastP{
+ font-size:40px; 
+}
+
+.myButton {
+	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:9px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.game{
+  display: flex;
+  justify-content:center;
+}
+
+.fireCards{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  height: 250px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.causeCards{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  height: 250px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.conCards{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  justify-content:center;
+}
+
+.card{
+  height: 300px;
+  width: 300px;
+}
+img{
+  height:150px;
+  
+}
+  
+#fC1:hover{
+  border: solid white 10px; 
+ 
+}
+
+#fC2:hover{
+  border: solid white 10px;
+}
+
+#cC1:hover{
+  border: solid white 10px;
+}
+
+#cC2:hover{
+  border: solid white 10px;
+}
+
+#fC1{
+  padding: 10px;
+}
+
+#fC2{
+  padding: 10px;
+}
+
+#cC1{
+  padding: 10px;
+}
+
+#cC2{
+  padding: 10px;
+}
+
+#cC3{
+  padding: 10px;
+}
+
+#cC4{
+  padding: 10px;
+}
+
+#fC3{
+  padding: 10px;
+}
+
+#fC4{
+  padding: 10px;
+}
+
+
+#fC3:hover{
+  border: solid white 10px;
+}
+
+#fC4:hover{
+  border: solid white 10px;
+}
+
+#cC3:hover{
+  border: solid white 10px;
+}
+
+#cC4:hover{
+  border: solid white 10px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.smokyimage{
+  width: 400px;
+  height: 400px;
+  margin-top: 24px;
+}
+
